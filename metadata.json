@@ -1,0 +1,49 @@
+{
+  "documents": [
+    {
+      "file_name": "club_info.md",
+      "title": "GDG KSU Club Information",
+      "category": "club_information",
+      "source": "GDG KSU LinkedIn and available club materials",
+      "tags": ["GDG KSU", "club", "values", "students", "technology"],
+      "last_updated": "2026-05-31",
+      "description": "General information about GDG KSU, its purpose, values, and target audience."
+    },
+    {
+      "file_name": "committees.md",
+      "title": "GDG KSU Committees",
+      "category": "club_structure",
+      "source": "GDG KSU organizational structure image and available club materials",
+      "tags": ["committees", "technical committee", "media", "events", "project management"],
+      "last_updated": "2026-05-31",
+      "description": "Information about the main committees in GDG KSU and their roles."
+    },
+    {
+      "file_name": "activities.md",
+      "title": "GDG KSU Activities",
+      "category": "activities",
+      "source": "GDG KSU LinkedIn posts and available club materials",
+      "tags": ["activities", "workshops", "company visits", "events", "community initiatives"],
+      "last_updated": "2026-05-31",
+      "description": "Information about GDG KSU activities such as visits, workshops, sessions, and initiatives."
+    },
+    {
+      "file_name": "knowledge_snippets.md",
+      "title": "GDG KSU Knowledge Snippets",
+      "category": "educational_content",
+      "source": "GDG KSU Twitter/X educational posts",
+      "tags": ["API", "GitHub", "Docker", "LLM", "Cloud", "Postman", "2FA", "technical concepts"],
+      "last_updated": "2026-05-31",
+      "description": "Short educational snippets collected from GDG KSU social media content."
+    },
+    {
+      "file_name": "faq.md",
+      "title": "GDG KSU Frequently Asked Questions",
+      "category": "faq",
+      "source": "Derived from collected GDG KSU information and educational content",
+      "tags": ["FAQ", "questions", "answers", "chatbot", "students"],
+      "last_updated": "2026-05-31",
+      "description": "Frequently asked questions and answers that help the chatbot respond to common student questions."
+    }
+  ]
+}
