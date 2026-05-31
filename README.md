@@ -23,12 +23,29 @@ Instead of adding large amounts of unverified information, the content only incl
 - `knowledge_snippets.md`: Contains short educational technical snippets from social media content.
 - `faq.md`: Contains frequently asked questions and answers.
 - `metadata.json`: Describes each document using metadata such as title, category, source, tags, and description.
+- `Test_Bot.py`: Tests the Knowledge Base by sending user questions with the collected content to Gemini.
 
 ## How This Supports RAG
 
 When a user asks a question, the chatbot can search the Knowledge Base, retrieve the most relevant document or section, and send it with the user question to Gemini.
 
 This helps the chatbot generate answers based on organized club information instead of relying only on general AI knowledge.
+
+## Testing
+
+A simple testing script was added to check how the chatbot answers questions using the Knowledge Base.
+
+The script reads the Knowledge Base files, combines the content with the user question, and sends the prompt to Gemini.
+
+If the answer is not available in the Knowledge Base, the chatbot should say that the information is not available instead of guessing.
+
+## Important Note
+
+The API Key is not included in this project for security reasons.
+
+The API Key should be stored as an environment variable named:
+
+`GEMINI_API_KEY`
 
 ## Concepts Covered
 
@@ -37,3 +54,4 @@ This helps the chatbot generate answers based on organized club information inst
 - Metadata
 - RAG support
 - Information cleaning and structuring
+- Basic chatbot testing
